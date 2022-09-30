@@ -19,9 +19,7 @@ const about = () => {
 
       <div className='container about__container'>
         <h2>Especialidades</h2>
-        <p>
-          Crianças, adolescentes e Adultos.
-        </p>
+        <p>Crianças, adolescentes e Adultos.</p>
 
       </div>
 
@@ -32,6 +30,16 @@ const about = () => {
           <br></br>
           <a href="#contact" id='button' className='btn btn-primary'>Currículo Lattes</a>
         </p>
+
+
+
+      </div>
+
+      <div className='container about__container'>
+        <h2>Atendimento</h2>
+        <p>Santo Ângelo/RS</p>
+
+
 
       </div>
     </section >
