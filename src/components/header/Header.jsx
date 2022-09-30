@@ -1,6 +1,6 @@
 import React from 'react'
 import CSS from './Header.css'
-import HeaderSocial from './HeaderSocial'
+
 
 const Header = () => {
   return (
@@ -14,11 +14,9 @@ const Header = () => {
         </div>
 
 
-        <HeaderSocial />
 
 
 
-        <a href="#contact" className='scroll__down'>Scroll Down</a>
       </section>
       <div id="sobre" class="wave"></div>
     </header>
