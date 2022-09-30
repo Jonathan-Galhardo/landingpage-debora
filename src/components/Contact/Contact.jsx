@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 import { FiMail } from "react-icons/fi"
 import { FaWhatsapp } from "react-icons/fa"
-import { AiOutlineLinkedin } from "react-icons/ai";
+import { BsInstagram } from "react-icons/bs";
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
@@ -34,11 +34,11 @@ const Contact = () => {
             <FaWhatsapp className='contact__options-icon' />
             <h4>Whatsapp</h4>
             <h5>(55)9.8122-6934</h5>
-            <a className='btn btn-primary' href="https://api.whatsapp.com/send?phone=5555984389850&text=Ol%C3%A1!">Send a message</a>
+            <a className='btn btn-primary' href="https://api.whatsapp.com/send?phone=5555981226934&text=Ol%C3%A1!">Send a message</a>
           </article>
           <article className='contact__option'>
-            <AiOutlineLinkedin className='contact__options-icon' />
-            <h4>LinkedIn</h4>
+            <BsInstagram className='contact__options-icon' />
+            <h4>Instagram</h4>
             <h5>Débora Escobar</h5>
             <a className='btn btn-primary' href="https://www.linkedin.com/in/jonathangalhardo/">Send a message</a>
           </article>
