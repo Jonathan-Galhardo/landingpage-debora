@@ -5,14 +5,34 @@ import './About.css'
 const about = () => {
   return (
     <section id='about'>
-      <h5>Bio</h5>
-      <h2>Sobre Mim</h2>
+
 
       <div className='container about__container'>
+        <h2>Sobre Mim</h2>
         <p>
-          Sou um entusiasta da tecnologia, acredito que ela seja para todas as pessoas e para todos os negócios. Busco resolver os problemas no meu caminho com calma, organização e uma dose grande de criatividade!
+          Débora é Pedagoga, Mestra em Educação pela UFRGS, atua há mais de 11 anos na Educação Especial. Especialista em Orientação Educacional pela UFFS, possui formação em Educação Terapêutica no Lugar de Vida/SP. Capacitação para aplicação do instrumento IRDI + AI.
         </p>
-        <a href="#contact" className='btn btn-primary'>Contato</a>
+
+      </div>
+
+
+
+      <div className='container about__container'>
+        <h2>Especialidades</h2>
+        <p>
+          Crianças, adolescentes e Adultos.
+        </p>
+
+      </div>
+
+      <div className='container about__container'>
+        <h2>Formação</h2>
+        <p>
+          Débora é Pedagoga, Mestra em Educação pela UFRGS, atua há mais de 11 anos na Educação Especial. Especialista em Orientação Educacional pela UFFS, possui formação em Educação Terapêutica no Lugar de Vida/SP. Capacitação para aplicação do instrumento IRDI + AI.
+          <br></br>
+          <a href="#contact" id='button' className='btn btn-primary'>Currículo Lattes</a>
+        </p>
+
       </div>
     </section >
   )

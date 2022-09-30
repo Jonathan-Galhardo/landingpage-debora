@@ -1,17 +1,28 @@
 header {
-  width: auto;
+  width: 100%;
   height: 100vh;
-  padding-top: 4rem;
   overflow: hidden;
-  margin: auto;
+  
 }
 
-.header__container {
+#header {
+  background-image: url(../../assets/debora.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;/*faz a imagem ficar fixa*/
+}
+
+.container_header {
   text-align: center;
   height: 100%;
+  width: 100%;
   position: relative;
   margin: auto;
+  margin-top: -2rem;
+  padding-top: 20rem;
 }
+
 
 /*############### REDES SOCIAIS #############*/ 
 .header__socials {
@@ -20,7 +31,7 @@ header {
   align-items: center;
   gap: 0.8rem;
   position: absolute;
-  left: 0;
+  left: 5rem;
   bottom: 0;
 }
 
@@ -32,28 +43,39 @@ header {
   
 }
 
-/* ############## FOTO HEADER ######### */ 
-.me {
-  width: 30rem;
-  height: 40rem;
-  position: relative;
-  left: calc(50% - 15rem);
-  margin-top: 1rem;
-  background-position: center;
-	background-attachment: fixed;/*faz a imagem ficar fixa*/
-	position: relative;
-}
-
 /* ############## SCROLL ############*/
 
 .scroll__down {
   position: absolute;
-  right: -2rem;
+  right: 5rem;
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
 }
+
+.wave{
+  position: absolute;
+  width: 110%;
+  height: 9.5rem;
+  bottom: 0;
+  left: 0;
+  background: url(../../assets/wave.png);
+  animation: animate 15s linear infinite;
+}
+
+@keyframes animate {
+  0%
+  {
+      background-position: 0;
+  }
+
+  100%
+  {
+      background-position: 1360px;
+  }
+}
+
 
 /*###################### Media Queries (desktop) #####################*/
 @media screen and (min-width: 1025px) {
