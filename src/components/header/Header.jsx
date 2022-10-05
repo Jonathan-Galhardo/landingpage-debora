@@ -8,7 +8,7 @@ const Header = () => {
       <section className="container_header">
         <div className='header_container'>
           <h5>Olá, Eu sou! </h5>
-          <h1>Débora Escobar</h1>
+          <h1>DÉBORA ESCOBAR</h1>
           <h5>Pedagoga Mestra em Educação</h5>
 
         </div>

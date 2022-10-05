@@ -15,12 +15,12 @@ header {
 }
 
 .header_container{
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: var(--color-bg);
   opacity: 0.9;
-	padding: 1rem;
+	padding: 2rem;
   text-align: center;
   margin: auto;
-  width: max-content;
+  width: 100%;
 }
 
 .container_header {
@@ -31,14 +31,15 @@ header {
   position: relative;
   margin: auto;
   margin-top: -2rem;
-  padding-top: 23rem;
+  padding-top: 35rem;
+  bottom: 10rem;
 }
 
 .wave{
   position: absolute;
   width: 100%;
-  height: 9.5rem;
-  bottom: 0;
+  height: 9.7rem;
+  bottom: 7rem;
   background: url(../../assets/wave.png);
   animation: animate 20s linear infinite;
 }
@@ -83,15 +84,21 @@ header {
 
 /*###################### Media Queries (Mobile) #####################*/
 @media screen and (max-width: 600px) {
-  header {
-    height: 100vh;
-  }
-
+  
   .header_container{
-    width: 100%;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+
+    
   }
   
-  .header__socials, .scroll__down {
-    display: none;
+  .container_header{
+    bottom: 0;
   }
+
+  .wave{
+    bottom: 14rem;
+  }
+ 
 }
