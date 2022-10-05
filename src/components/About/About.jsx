@@ -12,7 +12,7 @@ const about = () => {
         <p>
           Sou pedagoga e psicanalista, atuo na Educação Básica, Ensino Superior e na clínica. Atendo crianças, adolescentes e adultos.
           <div>
-            <a className='btn btn-primary' href="sobre.html">Saiba Mais</a>
+            <a className='btn btn-primary' id='button' href="sobre.html">Saiba Mais</a>
           </div>
         </p>
 
@@ -30,7 +30,7 @@ const about = () => {
       <div className='container about__container'>
         <h2>Formação</h2>
         <p>
-          Débora é Pedagoga, Mestra em Educação pela UFRGS, atua há mais de 11 anos na Educação Especial. Especialista em Orientação Educacional pela UFFS, possui formação em Educação Terapêutica no Lugar de Vida/SP. Capacitação para aplicação do instrumento IRDI + AI.
+          Pedagoga e psicanalista, especialista em Orientação Educacional, Gestão Educacional, Docência para o Ensino Superior. Possui formação para o atendimento educacional especializados. É mestra em Educação (UFRGS), linha de pesquisa: Educação Especial e processos Inclusivos. Atualmente cursa pós-graduação em Clínica Interdisciplinar em Estimulação Precoce pelo centro de estudos Lydia coriat de Porto Alegre. Tem formação para o uso dos roteiros IRDI e AP3+AI.
           <br></br>
           <a href="#contact" id='button' className='btn btn-primary'>Currículo Lattes</a>
         </p>

@@ -15,8 +15,14 @@ h2{
 p{
   margin-bottom: 1rem;
   margin-top: 1rem;
+  color: var(--color-primary);
+  text-align: justify;
   
 }
+
+#button:hover{
+    background-color: #2120202d;
+  }
 
 #button{
   color: var(--color-white)

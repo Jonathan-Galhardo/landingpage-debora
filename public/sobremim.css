@@ -18,12 +18,12 @@ body {
 
 /* criando variáveis padrão no projeto*/
 :root {
-  --color-bg: #03999e;
-  --color-bg-variant: #022627;
-  --color-primary: #56d0d4;
+  --color-bg: #e0f5e8;
+  --color-bg-variant: #4bc3c7;
+  --color-primary: #20a1b2;
   --color-primary-variant: rgb(132, 183, 211);
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: #ffffff99;
   --transition: all 400ms ease;
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -31,8 +31,13 @@ body {
 }
 
 .container {
+  height: max-content;
   text-align: center;
   margin: auto;
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 5%;
+
  }
 
 h2{
@@ -45,7 +50,7 @@ h2{
 p{
   margin-bottom: 1rem;
   margin-top: 1rem;
-  color: var(--color-white);
+  color: var(--color-primary);
   text-align: justify;
   margin-top: 2rem;
   font-size: 1.5rem;
@@ -66,7 +71,7 @@ nav {
   border-radius: 3rem;
   backdrop-filter: blur(15px);
   opacity: 0.8;
-}
+  }
 
 nav a {
   background: transparent;
@@ -86,6 +91,16 @@ nav a.active {
   color: var(--color-bg);
 }
 
+footer {
+  background: var(--color-bg-variant);
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  
+  
+}
+
+
 
 /*###################### Media Queries (desktop) #####################*/
 @media screen and (min-width: 1025px) {
@@ -96,10 +111,34 @@ nav a.active {
 
 /*###################### Media Queries (Tablets) #####################*/
 @media screen and (max-width: 1024px) {
+  .container{
+    width: var(--container-width-md); 
+    gap: 5rem;
+    border: solid 1px var(--color-primary);
+  }
 
 }
  
 
 /*###################### Media Queries (Mobile) #####################*/
 @media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 5%;
+    padding: 2rem;
+    
+ }
+
+  p:nth-last-child(-n + 1){
+  margin-bottom: 13rem;
+ }
+
+    a footer{
+      margin-top: 5rem;
+    }
+
+
+
 }
