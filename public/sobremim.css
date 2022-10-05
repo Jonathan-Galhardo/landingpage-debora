@@ -56,39 +56,26 @@ p{
   font-size: 1.5rem;
 }
 
-nav {
-  background: rgba(0, 0, 0, 0.3);
-  width: max-content;
-  display: block;
-  padding: 0.7rem 1.7rem;
-  z-index: 2;
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 2rem;
-  display: flex;
-  gap: 0.8rem;
-  border-radius: 3rem;
-  backdrop-filter: blur(15px);
-  opacity: 0.8;
-  }
+nav{
+  background-color: var(--color-bg-variant);
+}
 
 nav a {
-  background: transparent;
-  padding: 0.9rem;
-  border-radius: 50%;
-  display: flex;
   color: var(--color-light);
   font-size: 1.1rem;
 }
 
 nav a:hover {
-  background: rgba(0, 0, 0, 0.8);
+  
 }
 
 nav a.active {
   background: var(--color-primary);
   color: var(--color-bg);
+}
+
+#sobre{
+  margin-top: 5rem;
 }
 
 footer {
@@ -114,7 +101,7 @@ footer {
   .container{
     width: var(--container-width-md); 
     gap: 5rem;
-    border: solid 1px var(--color-primary);
+    
   }
 
 }
@@ -132,12 +119,16 @@ footer {
  }
 
   p:nth-last-child(-n + 1){
-  margin-bottom: 13rem;
+  margin-bottom: 10rem;
  }
 
-    a footer{
-      margin-top: 5rem;
-    }
+  a footer{
+    margin-top: 5rem;
+  }
+
+  img{
+    margin-bottom: 0;
+  }
 
 
 

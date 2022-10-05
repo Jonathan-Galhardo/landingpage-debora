@@ -8,24 +8,42 @@
   <link rel="stylesheet" href="sobremim.css">
   <link rel="stylesheet" href="../src/index.css">
   <script src="https://kit.fontawesome.com/4baa76fe28.js" crossorigin="anonymous"></script>
-
-  <title>Sobre Mim</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <title>SOBRE MIM</title>
 </head>
 
 <body>
-  <nav>
-    <a href="index.html"><i class="fa-solid fa-house-user"></i></a>
-    <a href=""><i class="fa-solid fa-user"></i></a>
-    <a href=""><i class="fa-solid fa-briefcase"></i></a>
-    <a href=""><i class="fa-solid fa-gears"></i></a>
-    <a href=""><i class="fa-solid fa-address-card"></i></a>
+
+  <header>
+    <!--Início Header-->
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <div class="container">
+        <a href="#" class="nvbar-brand">
+          <img src="./img/logo_debora2.png" width="150px">
+        </a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav-principal">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="index.html" class="nav-link ">home</a></li>
+            <li class="nav-item"><a href="index.html#about" class="nav-link ml-1">sobre</a></li>
+            <li class="nav-item"><a href="index.html#contact" class="nav-link ml-1">contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--Fim Header-->
 
 
-  </nav>
-
-  <section class="container">
+  <section id="sobre" class="container">
     <div>
-      <h2>Sobre Mim ... </h2>
+      <h2>SOBRE MIM ...</h2>
       <img src="./img/debora_1.png" alt="foto_debora" width="350px">
     </div>
     <div>
@@ -70,17 +88,24 @@
   </section>
 
   <footer>
-    <a href="#" className='footer__logo'>DÉBORA ESCOBAR</a>
+    <a href="index.html" className='footer__logo'>DÉBORA ESCOBAR</a>
 
-
-
-
-
-
-    <div className="footer__copyright">
-      <small> Todos os direitos reservados</small>
+    <div>
+      <small>&copy; Todos os direitos reservados</small>
     </div>
   </footer>
+
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
