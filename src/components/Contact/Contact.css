@@ -16,7 +16,7 @@
   }
 
   .contact__option {
-    background: var(--color-bg-variant);
+    background: var(--color-primary);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -25,12 +25,12 @@
   }
 
   .contact__option:hover {
-    background: var(--color-primary-variant);
-    border: 1px solid var(--color-primary);
+    background:var(--color-bg-variant);
+    
   }
 
   .contact__options-icon {
-    color: var(--color-primary);
+    color: var(--color-white);
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
   }
@@ -42,7 +42,21 @@
     height: auto;
   }
 
-  /*############## FORM ################*/ 
+  .btn{
+    background-color: var(--color-bg-variant);
+    color: var(--color-white) !important;
+  }
+
+  article a:hover{
+    background-color: var(--color-primary) !important;
+  }
+
+  button:hover{
+    background-color: var(--color-primary) !important;
+  }
+
+
+ /*############## FORM ################*/ 
   form {
     display: flex;
     flex-direction: column;
@@ -53,12 +67,13 @@
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    background: var(--color-primary-variant);
+    background: var(--color-white);
     border: 2px solid var(--color-primary);
     resize: none;
     color: var(--color-white)
   }
 
+ 
   /*###################### Media Queries (Tablets) #####################*/
 @media screen and (max-width: 1024px) {
   .contact__container {

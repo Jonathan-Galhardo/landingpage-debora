@@ -32,7 +32,7 @@ const about = () => {
         <p>
           Pedagoga e psicanalista, especialista em Orientação Educacional, Gestão Educacional, Docência para o Ensino Superior. Possui formação para o atendimento educacional especializados. É mestra em Educação (UFRGS), linha de pesquisa: Educação Especial e processos Inclusivos. Atualmente cursa pós-graduação em Clínica Interdisciplinar em Estimulação Precoce pelo centro de estudos Lydia coriat de Porto Alegre. Tem formação para o uso dos roteiros IRDI e AP3+AI.
           <br></br>
-          <a href="#contact" id='button' className='btn btn-primary'>Currículo Lattes</a>
+          <a href="http://lattes.cnpq.br/1884347888035511" id='button' className='btn btn-primary'>Currículo Lattes</a>
         </p>
 
 
